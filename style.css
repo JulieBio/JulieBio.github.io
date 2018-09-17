@@ -1,0 +1,148 @@
+@media (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) { ... }
+
+
+/*
+.card-columns {
+	@include media-breakpoint-only(md) {
+	  column-count: 4;
+	}
+	@include media-breakpoint-only(md) {
+	  column-count: 5;
+	}
+  }
+*/
+
+
+#carousel-control-next{
+	color: black;
+}
+#mostwanted {
+	display: flex;
+	justify-content: space-around;
+}
+li {
+	list-style-type: none;
+}
+.coins {
+	color: #F56304;
+}
+#theWiz {
+	height: 300px;
+	width: 200px;
+	position: relative;
+}
+#imgW {
+	opacity: 0.5;
+}
+#titleW {
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+	color: white;
+	font-size: 2em;
+	font-family: Verdana, Arial, sans-serif;
+}
+#textW {
+	color: black;
+	position: absolute;
+	left: 7px;
+	top: 20px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(234, 236, 238,0.8);
+	padding: 5px 30px;
+	font-size: 1.2em;
+	font-family: Verdana, Arial, sans-serif;
+}
+#theWiz:hover {
+	opacity:1;
+	background: url('gandalf.png');
+	position: relative;
+}
+#theWiz:hover #theWizHo {
+	opacity: 0;
+}
+#Hob{
+	height: 300px;
+	width: 200px;
+	position: relative;
+}
+#imgH {
+	opacity: 0.5;
+}
+#titleH {
+	position: absolute;
+	bottom: 100px;
+	left: 15px;
+	color: white;
+	font-size: 2em;
+	font-family: Verdana, Arial, sans-serif;
+}
+#textH {
+	color: black;
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(234, 236, 238,0.8);
+	padding: 5px 30px;
+	font-size: 1.2em;
+	font-family: Verdana, Arial, sans-serif;
+}
+#Hob:hover {
+	opacity:1;
+	background: url('hobbit.jpg');
+	position: relative;
+}
+#Hob:hover #HobHo {
+	opacity: 0;
+}
+#Dwa {
+	height: 300px;
+	width: 200px;
+	position: relative;
+}
+#imgD {
+	opacity: 0.5;
+}
+#titleD {
+	position: absolute;
+	bottom: 100px;
+	left: 15px;
+	color: white;
+	font-size: 1.5em;
+	font-family: Verdana, Arial, sans-serif;
+}
+#textD {
+	color: black;
+	position: absolute;
+	top: 20px;
+	left: 12px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(234, 236, 238,0.8);
+	padding: 5px 30px;
+	font-size: 1.2em;
+	font-family: Verdana, Arial, sans-serif;
+}
+#Dwa:hover {
+	opacity:1;
+	background: url('dwarf.jpg');
+	position: relative;
+}
+#Dwa:hover #DwHo {
+	opacity: 0;
+}
+.description {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.card-body{
+	padding: 0 rem;
+}
+.marg{
+	margin : 4vw;
+}
